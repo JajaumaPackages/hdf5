@@ -387,7 +387,7 @@ done
 
 %files mpich-devel
 %{_includedir}/mpich-%{_arch}
-%{_fmoddir}/mpich/*.mod
+%{_fmoddir}/mpich-x86_64/*.mod
 %{_libdir}/mpich/bin/h5pcc
 %{_libdir}/mpich/bin/h5pfc
 %{_libdir}/mpich/lib/lib*.so
@@ -427,7 +427,7 @@ done
 
 %files openmpi-devel
 %{_includedir}/openmpi-%{_arch}
-%{_fmoddir}/openmpi/*.mod
+%{_fmoddir}/openmpi-x86_64/*.mod
 %{_libdir}/openmpi/bin/h5pcc
 %{_libdir}/openmpi/bin/h5pfc
 %{_libdir}/openmpi/lib/lib*.so
